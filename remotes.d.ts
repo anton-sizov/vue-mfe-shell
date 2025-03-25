@@ -1,0 +1,1 @@
+declare module 'vue-mfe1/App';
