@@ -10,7 +10,7 @@ export default defineConfig({
     federation({
       name: 'vue-mfe-shell',
       remotes: {
-        'vue-mfe1': 'http://localhost:5005/assets/remoteEntry.js',
+        'vue-mfe1': 'https://anton-sizov.github.io/vue-mfe1/assets/remoteEntry.js',
       },
       shared: ['vue'],
     }),
